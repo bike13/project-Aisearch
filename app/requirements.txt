@@ -1,0 +1,38 @@
+# 最新版本
+langchain
+sentence-transformers
+faiss-cpu
+pypdf
+fastapi
+uvicorn
+pydantic
+python-dotenv
+langchain-community
+langgraph
+pypdf
+langchain-openai
+fastmcp==2.2.5
+openai==1.75.0
+requests
+python-dotenv==1.1.0
+pandas==2.2.3
+beautifulsoup4==4.13.4
+markdown==3.8
+python-multipart==0.0.20
+numpy==2.2.5
+PyPDF2==3.0.1
+python-docx==1.1.2
+unstructured
+
+# sentence-transformers==4.1.0
+# faiss-cpu==1.10.0
+# numpy==2.2.5
+# PyPDF2==3.0.1
+# python-docx==1.1.2
+# pandas==2.2.3
+# beautifulsoup4==4.13.4
+# markdown==3.8
+# python-multipart==0.0.20
+
+
+ 

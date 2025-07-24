@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文档管理</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Vue.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@3.2.47/dist/vue.global.prod.js"></script>
+  <!-- Axios for API calls -->
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js"></script>
+  <style>
+    .file-list {
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    .folder-list {
+      margin-bottom: 1rem;
+    }
+    .upload-area {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" class="container mt-5">
+    <!-- 标题 -->
+    <h1 class="mb-4">企业知识库管理</h1>
+    <!-- 导航 -->
+    <nav class="mb-4">
+      <a href="chat.html" class="btn btn-primary me-2">前往对话页面</a>
+      <button class="btn btn-warning me-2" @click="reIndex" :disabled="reIndexing">
+        <span v-if="reIndexing">重构中...</span>
+        <span v-else>重构索引</span>
+      </button>
+    </nav>
+
+    <!-- 文档管理区域 -->
+    <div class="card">
+      <div class="card-header">文档与目录管理</div>
+      <div class="card-body">
+        <!-- 新建目录 -->
+        <div class="mb-3">
+          <label for="newFolderName" class="form-label">新建目录</label>
+          <div class="input-group">
+            <input v-model="newFolderName" type="text" class="form-control" id="newFolderName" placeholder="请输入目录名称">
+            <button class="btn btn-success" @click="createFolder">新建</button>
+          </div>
+        </div>
+        <!-- 上传文件 -->
+        <div class="upload-area mb-3">
+          <label class="form-label">上传文件</label>
+          <div class="input-group">
+            <select v-model="selectedPath" class="form-select" style="max-width: 200px;">
+              <option v-for="path in allPaths" :key="path" :value="path">{{ path }}</option>
+            </select>
+            <input type="file" ref="fileInput" class="form-control" @change="handleFileChange">
+            <button class="btn btn-primary" @click="uploadFile">上传</button>
+          </div>
+        </div>
+        <!-- 目录与文件列表 -->
+        <div class="file-list">
+          <ul class="list-group">
+            <li v-for="item in filesAndFolders" :key="item.name" class="list-group-item d-flex justify-content-between align-items-center">
+              <span>
+                <span v-if="item.type === 'folder'">
+                  <i class="bi bi-folder-fill text-warning"></i>
+                  <a href="#" @click.prevent="enterFolder(item.name)">{{ item.name }}</a>
+                </span>
+                <span v-else>
+                  <i class="bi bi-file-earmark-text"></i>
+                  {{ item.name }}
+                </span>
+              </span>
+              <button class="btn btn-danger btn-sm" @click="deleteItem(item)">删除</button>
+            </li>
+          </ul>
+        </div>
+        <!-- 路径导航 -->
+        <div class="mt-3">
+          <span>当前位置：</span>
+          <span v-for="(seg, idx) in currentPathArr" :key="idx">
+            <a href="#" @click.prevent="goToPath(idx)">{{ seg || '根目录' }}</a>
+            <span v-if="idx < currentPathArr.length - 1"> / </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script>
+    const { createApp } = Vue;
+    axios.defaults.baseURL = 'http://127.0.0.1:8000';
+
+    // ... existing code ...
+    createApp({
+      data() {
+        return {
+          filesAndFolders: [], // 当前目录下的文件和文件夹
+          allPaths: ['根目录'], // 所有可选上传路径
+          currentPath: '', // 当前路径（相对/document）
+          currentPathArr: ['根目录'],
+          newFolderName: '',
+          selectedPath: '根目录',
+          fileToUpload: null,
+          reIndexing: false
+        };
+      },
+      mounted() {
+        this.fetchFilesAndFolders();
+        this.fetchAllPaths();
+      },
+      methods: {
+        async reIndex() {
+          if (this.reIndexing) return;
+          this.reIndexing = true;
+          try {
+            await axios.post('api/files/reIndex');
+            alert('索引构建完成');
+          } catch (error) {
+            alert('重构索引失败！');
+          } finally {
+            this.reIndexing = false;
+          }
+        },
+        getApiPath(path) {
+          // path为相对根目录的路径
+          if (!path || path === '根目录') return '';
+          return path.replace(/^\/+/, '');
+        },
+        async fetchFilesAndFolders() {
+          try {
+            const response = await axios.get('api/files/current', { params: { path: this.getApiPath(this.currentPath) } });
+            // 兼容后端返回格式
+            if (Array.isArray(response.data)) {
+              // 兼容旧格式
+              this.filesAndFolders = response.data;
+            } else {
+              // 新格式
+              this.filesAndFolders = [
+                ...response.data.folders.map(name => ({ name, type: 'folder' })),
+                ...response.data.files.map(name => ({ name, type: 'file' }))
+              ];
+            }
+          } catch (error) {
+            console.error('获取文件列表失败:', error);
+            alert('获取文件列表失败！');
+          }
+        },
+        async fetchAllPaths() {
+          try {
+            const response = await axios.get('api/files/paths');
+            // 只保留根目录下的路径，去掉/document前缀，根目录显示为'根目录'
+            this.allPaths = response.data.map(p => {
+              if (p === '' || p === '/' || p === '/document' || p === '/document/') return '根目录';
+              return p.replace(/^\/document\/?/, '').replace(/^\/+/, '');
+            });
+            if (!this.selectedPath) this.selectedPath = this.allPaths[0];
+          } catch (error) {
+            this.allPaths = ['根目录'];
+          }
+        },
+        async createFolder() {
+          if (!this.newFolderName) {
+            alert('请输入目录名称！');
+            return;
+          }
+          try {
+            const formData = new FormData();
+            formData.append('name', this.newFolderName);
+            formData.append('path', this.getApiPath(this.currentPath));
+            await axios.post('api/files/folders', formData); // 不要加 headers，axios 会自动设置
+            this.newFolderName = '';
+            this.fetchFilesAndFolders();
+            this.fetchAllPaths();
+          } catch (error) {
+            let msg = '新建目录失败！';
+            if (error.response && error.response.data && error.response.data.detail) {
+              msg += '\n' + error.response.data.detail;
+            }
+            alert(msg);
+          }
+        },
+        handleFileChange(event) {
+          this.fileToUpload = event.target.files[0];
+        },
+        async uploadFile() {
+          if (!this.fileToUpload) {
+            alert('请选择文件！');
+            return;
+          }
+          const formData = new FormData();
+          formData.append('file', this.fileToUpload);
+          // selectedPath为'根目录'时，上传到根目录
+          formData.append('path', this.getApiPath(this.selectedPath));
+          try {
+            await axios.post('api/files/upload', formData, { headers: { 'Content-Type': 'multipart/form-data' } });
+            alert('上传成功！');
+            this.fileToUpload = null;
+            this.$refs.fileInput.value = '';
+            this.fetchFilesAndFolders();
+          } catch (error) {
+            alert('上传失败！');
+          }
+        },
+        async deleteItem(item) {
+          if (!confirm(`确定要删除${item.type === 'folder' ? '目录' : '文件'} ${item.name} 吗？`)) return;
+          try {
+            await axios.delete('api/files/del', { data: { name: item.name, path: this.getApiPath(this.currentPath), type: item.type } });
+            this.fetchFilesAndFolders();
+            this.fetchAllPaths();
+          } catch (error) {
+            alert('删除失败！');
+          }
+        },
+        enterFolder(folderName) {
+          this.currentPath = this.currentPath ? `${this.currentPath}/${folderName}` : folderName;
+          this.currentPathArr.push(folderName);
+          this.fetchFilesAndFolders();
+        },
+        goToPath(idx) {
+          if (idx === 0) {
+            this.currentPath = '';
+            this.currentPathArr = ['根目录'];
+          } else {
+            this.currentPath = this.currentPathArr.slice(1, idx + 1).join('/');
+            this.currentPathArr = this.currentPathArr.slice(0, idx + 1);
+          }
+          this.fetchFilesAndFolders();
+        }
+// ... existing code ...
+      }
+    }).mount('#app');
+// ... existing code ...
+  </script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

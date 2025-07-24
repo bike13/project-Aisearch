@@ -1,0 +1,173 @@
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+INFO:     172.18.0.1:33140 - "GET / HTTP/1.1" 404 Not Found
+INFO:     172.18.0.1:33140 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+INFO:     127.0.0.1:40944 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40952 - "POST /messages/?session_id=dd86f89ac63d48ba9f1527c2d0b56feb HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:40952 - "POST /messages/?session_id=dd86f89ac63d48ba9f1527c2d0b56feb HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:40952 - "POST /messages/?session_id=dd86f89ac63d48ba9f1527c2d0b56feb HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:40952 - "POST /messages/?session_id=dd86f89ac63d48ba9f1527c2d0b56feb HTTP/1.1" 202 Accepted
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+INFO:     127.0.0.1:60298 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60306 - "POST /messages/?session_id=50ed8ea47f0c45b69b568c07da785f2a HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60306 - "POST /messages/?session_id=50ed8ea47f0c45b69b568c07da785f2a HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60306 - "POST /messages/?session_id=50ed8ea47f0c45b69b568c07da785f2a HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:34804 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34808 - "POST /messages/?session_id=e24b3c7e4ed64aee80d03c9199c08430 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:34808 - "POST /messages/?session_id=e24b3c7e4ed64aee80d03c9199c08430 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:34808 - "POST /messages/?session_id=e24b3c7e4ed64aee80d03c9199c08430 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:37436 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37448 - "POST /messages/?session_id=6d86a7ae3af74a1d9846d3615e38f20d HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:37448 - "POST /messages/?session_id=6d86a7ae3af74a1d9846d3615e38f20d HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:37448 - "POST /messages/?session_id=6d86a7ae3af74a1d9846d3615e38f20d HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51348 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51362 - "POST /messages/?session_id=45c5fe97040444f2b01541aa2da83c97 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51362 - "POST /messages/?session_id=45c5fe97040444f2b01541aa2da83c97 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51362 - "POST /messages/?session_id=45c5fe97040444f2b01541aa2da83c97 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:54496 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54502 - "POST /messages/?session_id=83ace81149694f76bab4dfd02130f8db HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:54502 - "POST /messages/?session_id=83ace81149694f76bab4dfd02130f8db HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:54502 - "POST /messages/?session_id=83ace81149694f76bab4dfd02130f8db HTTP/1.1" 202 Accepted
+mcp_server is being initialized
+INFO:     127.0.0.1:44146 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44152 - "POST /messages/?session_id=8f0046e23969429995905685254bcdd1 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:44152 - "POST /messages/?session_id=8f0046e23969429995905685254bcdd1 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:44152 - "POST /messages/?session_id=8f0046e23969429995905685254bcdd1 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35142 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35150 - "POST /messages/?session_id=e7f6cee11a9146389c40aa943412cdb7 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35150 - "POST /messages/?session_id=e7f6cee11a9146389c40aa943412cdb7 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35150 - "POST /messages/?session_id=e7f6cee11a9146389c40aa943412cdb7 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:46832 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46846 - "POST /messages/?session_id=de888d20192b43e59df3f11ec1f41960 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:46846 - "POST /messages/?session_id=de888d20192b43e59df3f11ec1f41960 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:46846 - "POST /messages/?session_id=de888d20192b43e59df3f11ec1f41960 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:46846 - "POST /messages/?session_id=de888d20192b43e59df3f11ec1f41960 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35070 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35072 - "POST /messages/?session_id=03ffc67674a6485ba34b56eadb3f6ef0 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35072 - "POST /messages/?session_id=03ffc67674a6485ba34b56eadb3f6ef0 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35072 - "POST /messages/?session_id=03ffc67674a6485ba34b56eadb3f6ef0 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35072 - "POST /messages/?session_id=03ffc67674a6485ba34b56eadb3f6ef0 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60448 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60452 - "POST /messages/?session_id=87ed3ddcb4c3402c87d22056644017d3 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60452 - "POST /messages/?session_id=87ed3ddcb4c3402c87d22056644017d3 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60452 - "POST /messages/?session_id=87ed3ddcb4c3402c87d22056644017d3 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60452 - "POST /messages/?session_id=87ed3ddcb4c3402c87d22056644017d3 HTTP/1.1" 202 Accepted
+mcp_server is being initialized
+INFO:     127.0.0.1:51256 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51272 - "POST /messages/?session_id=290a834492634dd387fe96751f975e23 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51272 - "POST /messages/?session_id=290a834492634dd387fe96751f975e23 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51272 - "POST /messages/?session_id=290a834492634dd387fe96751f975e23 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51272 - "POST /messages/?session_id=290a834492634dd387fe96751f975e23 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:43762 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43770 - "POST /messages/?session_id=bfd31ad53d4c4df0a9bed16b5ace45d5 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:43770 - "POST /messages/?session_id=bfd31ad53d4c4df0a9bed16b5ace45d5 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:43770 - "POST /messages/?session_id=bfd31ad53d4c4df0a9bed16b5ace45d5 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:43770 - "POST /messages/?session_id=bfd31ad53d4c4df0a9bed16b5ace45d5 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:33834 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33836 - "POST /messages/?session_id=4c8c784dae7f4df69847612518d8fcec HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:33836 - "POST /messages/?session_id=4c8c784dae7f4df69847612518d8fcec HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:33836 - "POST /messages/?session_id=4c8c784dae7f4df69847612518d8fcec HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:56908 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56924 - "POST /messages/?session_id=04b6e0e314754957b057d26ce239d7bc HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:56924 - "POST /messages/?session_id=04b6e0e314754957b057d26ce239d7bc HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:56924 - "POST /messages/?session_id=04b6e0e314754957b057d26ce239d7bc HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:56924 - "POST /messages/?session_id=04b6e0e314754957b057d26ce239d7bc HTTP/1.1" 202 Accepted
+mcp_server is being initialized
+INFO:     127.0.0.1:43374 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43386 - "POST /messages/?session_id=22cb2de55d0f4144a4bac1f54d540883 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:43386 - "POST /messages/?session_id=22cb2de55d0f4144a4bac1f54d540883 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:43386 - "POST /messages/?session_id=22cb2de55d0f4144a4bac1f54d540883 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:43386 - "POST /messages/?session_id=22cb2de55d0f4144a4bac1f54d540883 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55906 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55914 - "POST /messages/?session_id=bce25b4f9a3446b4b7542d7f64106edd HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55914 - "POST /messages/?session_id=bce25b4f9a3446b4b7542d7f64106edd HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55914 - "POST /messages/?session_id=bce25b4f9a3446b4b7542d7f64106edd HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55914 - "POST /messages/?session_id=bce25b4f9a3446b4b7542d7f64106edd HTTP/1.1" 202 Accepted
+mcp_server is being initialized
+INFO:     127.0.0.1:50052 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50062 - "POST /messages/?session_id=c629086c522d4592a7f73ff7d49c61d8 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:50062 - "POST /messages/?session_id=c629086c522d4592a7f73ff7d49c61d8 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:50062 - "POST /messages/?session_id=c629086c522d4592a7f73ff7d49c61d8 HTTP/1.1" 202 Accepted
+mcp_server is being initialized
+mcp_server is being initialized
+INFO:     127.0.0.1:48060 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48062 - "POST /messages/?session_id=4119f815d56649ada271adbace67f17e HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48062 - "POST /messages/?session_id=4119f815d56649ada271adbace67f17e HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48062 - "POST /messages/?session_id=4119f815d56649ada271adbace67f17e HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48062 - "POST /messages/?session_id=4119f815d56649ada271adbace67f17e HTTP/1.1" 202 Accepted
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized
+mcp_server is being initialized

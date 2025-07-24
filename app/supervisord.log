@@ -1,0 +1,1125 @@
+2025-04-30 08:01:45,450 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 08:01:45,452 INFO supervisord started with pid 1
+2025-04-30 08:01:46,455 INFO spawned: 'fastapi' with pid 7
+2025-04-30 08:01:46,458 INFO spawned: 'order_service' with pid 8
+2025-04-30 08:01:46,461 INFO spawned: 'weather_service' with pid 9
+2025-04-30 08:01:48,183 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 08:01:48,194 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 08:01:48,194 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 08:11:37,423 WARN received SIGTERM indicating exit request
+2025-04-30 08:11:37,423 INFO waiting for fastapi, order_service, weather_service to die
+2025-04-30 08:11:46,057 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 08:11:46,062 INFO supervisord started with pid 1
+2025-04-30 08:11:47,081 INFO spawned: 'fastapi' with pid 7
+2025-04-30 08:11:47,086 INFO spawned: 'order_service' with pid 8
+2025-04-30 08:11:47,088 INFO spawned: 'weather_service' with pid 9
+2025-04-30 08:11:49,011 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 08:11:49,012 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 08:11:49,013 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 08:52:01,558 WARN received SIGTERM indicating exit request
+2025-04-30 08:52:01,559 INFO waiting for fastapi, order_service, weather_service to die
+2025-04-30 08:52:05,131 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 08:52:05,133 INFO supervisord started with pid 1
+2025-04-30 08:52:06,143 INFO spawned: 'fastapi' with pid 7
+2025-04-30 08:52:06,149 INFO spawned: 'order_service' with pid 8
+2025-04-30 08:52:06,153 INFO spawned: 'weather_service' with pid 9
+2025-04-30 08:52:07,842 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 08:52:07,843 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 08:52:07,844 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 08:53:14,927 WARN received SIGTERM indicating exit request
+2025-04-30 08:53:14,928 INFO waiting for fastapi, order_service, weather_service to die
+2025-04-30 08:53:15,067 WARN stopped: weather_service (terminated by SIGTERM)
+2025-04-30 08:53:15,231 WARN stopped: order_service (terminated by SIGTERM)
+2025-04-30 08:53:15,424 WARN stopped: fastapi (terminated by SIGTERM)
+2025-04-30 08:53:23,616 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 08:53:23,618 INFO supervisord started with pid 1
+2025-04-30 08:53:24,624 INFO spawned: 'fastapi' with pid 7
+2025-04-30 08:53:24,628 INFO spawned: 'order_service' with pid 8
+2025-04-30 08:53:24,632 INFO spawned: 'weather_service' with pid 9
+2025-04-30 08:53:26,320 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 08:53:26,321 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 08:53:26,322 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:02:22,312 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 09:02:22,314 INFO supervisord started with pid 1
+2025-04-30 09:02:23,344 INFO spawned: 'fastapi' with pid 7
+2025-04-30 09:02:23,350 INFO spawned: 'order_service' with pid 8
+2025-04-30 09:02:23,353 INFO spawned: 'weather_service' with pid 9
+2025-04-30 09:02:25,045 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:02:25,047 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:02:25,048 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:06:32,171 WARN received SIGTERM indicating exit request
+2025-04-30 09:06:32,172 INFO waiting for fastapi, order_service, weather_service to die
+2025-04-30 09:06:32,282 WARN stopped: weather_service (terminated by SIGTERM)
+2025-04-30 09:06:32,483 WARN stopped: order_service (terminated by SIGTERM)
+2025-04-30 09:06:32,648 WARN stopped: fastapi (terminated by SIGTERM)
+2025-04-30 09:44:25,457 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 09:44:25,462 INFO supervisord started with pid 1
+2025-04-30 09:44:26,474 INFO spawned: 'fastapi' with pid 7
+2025-04-30 09:44:26,481 INFO spawned: 'order_service' with pid 8
+2025-04-30 09:44:26,486 INFO spawned: 'weather_service' with pid 9
+2025-04-30 09:44:28,321 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:44:28,322 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:44:28,323 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:50:08,861 WARN received SIGTERM indicating exit request
+2025-04-30 09:50:08,862 INFO waiting for fastapi, order_service, weather_service to die
+2025-04-30 09:50:09,057 WARN stopped: weather_service (terminated by SIGTERM)
+2025-04-30 09:50:09,259 WARN stopped: order_service (terminated by SIGTERM)
+2025-04-30 09:50:09,397 WARN stopped: fastapi (terminated by SIGTERM)
+2025-04-30 09:50:12,687 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 09:50:12,689 INFO supervisord started with pid 1
+2025-04-30 09:50:13,697 INFO spawned: 'fastapi' with pid 7
+2025-04-30 09:50:13,706 INFO spawned: 'order_service' with pid 8
+2025-04-30 09:50:13,710 INFO spawned: 'weather_service' with pid 9
+2025-04-30 09:50:15,412 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:50:15,413 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:50:15,414 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:57:50,545 WARN received SIGTERM indicating exit request
+2025-04-30 09:57:50,546 INFO waiting for fastapi, order_service, weather_service to die
+2025-04-30 09:57:50,689 WARN stopped: weather_service (terminated by SIGTERM)
+2025-04-30 09:57:50,894 WARN stopped: order_service (terminated by SIGTERM)
+2025-04-30 09:57:51,090 WARN stopped: fastapi (terminated by SIGTERM)
+2025-04-30 09:57:59,516 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 09:57:59,519 INFO supervisord started with pid 1
+2025-04-30 09:58:00,529 INFO spawned: 'fastapi' with pid 13
+2025-04-30 09:58:00,535 INFO spawned: 'order_service' with pid 14
+2025-04-30 09:58:00,538 INFO spawned: 'weather_service' with pid 15
+2025-04-30 09:58:02,265 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:58:02,266 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 09:58:02,266 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 10:01:55,326 WARN received SIGTERM indicating exit request
+2025-04-30 10:01:55,328 INFO waiting for fastapi, order_service, weather_service to die
+2025-04-30 10:01:55,471 WARN stopped: weather_service (terminated by SIGTERM)
+2025-04-30 10:01:55,681 WARN stopped: order_service (terminated by SIGTERM)
+2025-04-30 10:01:55,869 WARN stopped: fastapi (terminated by SIGTERM)
+2025-04-30 10:02:00,237 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-30 10:02:00,239 INFO supervisord started with pid 1
+2025-04-30 10:02:01,247 INFO spawned: 'fastapi' with pid 13
+2025-04-30 10:02:01,253 INFO spawned: 'order_service' with pid 14
+2025-04-30 10:02:01,256 INFO spawned: 'weather_service' with pid 15
+2025-04-30 10:02:02,984 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 10:02:02,984 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 10:02:02,985 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-30 14:52:06,697 WARN received SIGTERM indicating exit request
+2025-04-30 14:52:06,702 INFO waiting for fastapi, order_service, weather_service to die
+2025-04-30 14:52:06,861 WARN stopped: weather_service (terminated by SIGTERM)
+2025-04-30 14:52:07,057 WARN stopped: order_service (terminated by SIGTERM)
+2025-04-30 14:52:08,262 WARN stopped: fastapi (terminated by SIGTERM)
+2025-05-05 11:50:24,557 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-05-05 11:50:24,562 INFO supervisord started with pid 1
+2025-05-05 11:50:25,574 INFO spawned: 'fastapi' with pid 14
+2025-05-05 11:50:25,580 INFO spawned: 'order_service' with pid 15
+2025-05-05 11:50:25,583 INFO spawned: 'weather_service' with pid 16
+2025-05-05 11:50:27,544 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-05 11:50:27,546 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-05 11:50:27,547 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-05 11:56:08,424 WARN received SIGTERM indicating exit request
+2025-05-05 11:56:08,425 INFO waiting for fastapi, order_service, weather_service to die
+2025-05-05 11:56:11,629 INFO waiting for fastapi, order_service, weather_service to die
+2025-05-05 11:56:22,680 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-05-05 11:56:22,682 INFO supervisord started with pid 1
+2025-05-05 11:56:23,692 INFO spawned: 'fastapi' with pid 6
+2025-05-05 11:56:23,697 INFO spawned: 'order_service' with pid 7
+2025-05-05 11:56:23,701 INFO spawned: 'weather_service' with pid 8
+2025-05-05 11:56:25,399 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-05 11:56:25,399 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-05 11:56:25,399 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-05 12:03:42,826 WARN received SIGTERM indicating exit request
+2025-05-05 12:03:42,828 INFO waiting for fastapi, order_service, weather_service to die
+2025-05-05 12:03:45,964 INFO waiting for fastapi, order_service, weather_service to die
+2025-05-05 12:03:48,969 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-18 14:26:13,121 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-18 14:26:13,124 INFO supervisord started with pid 1
+2025-07-18 14:26:14,130 INFO spawned: 'fastapi' with pid 7
+2025-07-18 14:26:14,135 INFO spawned: 'order_service' with pid 8
+2025-07-18 14:26:14,138 INFO spawned: 'weather_service' with pid 9
+2025-07-18 14:26:16,039 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-18 14:26:16,039 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-18 14:26:16,039 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-18 14:27:43,264 WARN received SIGTERM indicating exit request
+2025-07-18 14:27:43,265 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-18 14:27:43,456 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-18 14:27:43,634 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-18 14:27:43,837 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-18 14:27:44,502 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-18 14:27:44,505 INFO supervisord started with pid 1
+2025-07-18 14:27:45,509 INFO spawned: 'fastapi' with pid 7
+2025-07-18 14:27:45,530 INFO spawned: 'order_service' with pid 8
+2025-07-18 14:27:45,532 INFO spawned: 'weather_service' with pid 9
+2025-07-18 14:27:47,254 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-18 14:27:47,254 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-18 14:27:47,254 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-18 15:01:31,797 WARN received SIGTERM indicating exit request
+2025-07-18 15:01:31,797 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-18 15:01:31,965 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-18 15:01:32,166 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-18 15:01:32,367 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 05:32:54,514 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 05:32:54,521 INFO supervisord started with pid 1
+2025-07-20 05:32:55,527 INFO spawned: 'fastapi' with pid 7
+2025-07-20 05:32:55,533 INFO spawned: 'order_service' with pid 8
+2025-07-20 05:32:55,540 INFO spawned: 'weather_service' with pid 9
+2025-07-20 05:32:56,561 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:32:56,561 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:32:56,561 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:36:48,658 WARN received SIGTERM indicating exit request
+2025-07-20 05:36:48,658 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 05:36:48,806 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 05:36:48,959 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 05:36:49,155 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 05:37:56,418 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 05:37:56,421 INFO supervisord started with pid 1
+2025-07-20 05:37:57,424 INFO spawned: 'fastapi' with pid 7
+2025-07-20 05:37:57,427 INFO spawned: 'order_service' with pid 8
+2025-07-20 05:37:57,432 INFO spawned: 'weather_service' with pid 9
+2025-07-20 05:37:59,111 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:37:59,112 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:37:59,113 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:41:00,446 WARN received SIGTERM indicating exit request
+2025-07-20 05:41:00,447 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 05:41:00,626 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 05:41:00,801 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 05:41:00,928 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 05:41:21,400 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 05:41:21,403 INFO supervisord started with pid 1
+2025-07-20 05:41:22,407 INFO spawned: 'fastapi' with pid 7
+2025-07-20 05:41:22,420 INFO spawned: 'order_service' with pid 8
+2025-07-20 05:41:22,429 INFO spawned: 'weather_service' with pid 9
+2025-07-20 05:41:24,120 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:41:24,122 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:41:24,122 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:48:40,711 WARN received SIGTERM indicating exit request
+2025-07-20 05:48:40,711 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 05:48:40,831 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 05:48:41,031 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 05:48:41,233 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 05:54:04,841 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 05:54:04,844 INFO supervisord started with pid 1
+2025-07-20 05:54:05,848 INFO spawned: 'fastapi' with pid 7
+2025-07-20 05:54:05,851 INFO spawned: 'order_service' with pid 8
+2025-07-20 05:54:05,865 INFO spawned: 'weather_service' with pid 9
+2025-07-20 05:54:07,529 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:54:07,531 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:54:07,531 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:54:15,542 WARN received SIGTERM indicating exit request
+2025-07-20 05:54:15,542 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 05:54:15,649 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 05:54:15,824 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 05:54:15,952 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 05:54:16,746 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 05:54:16,749 INFO supervisord started with pid 1
+2025-07-20 05:54:17,752 INFO spawned: 'fastapi' with pid 7
+2025-07-20 05:54:17,757 INFO spawned: 'order_service' with pid 8
+2025-07-20 05:54:17,759 INFO spawned: 'weather_service' with pid 9
+2025-07-20 05:54:19,445 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:54:19,445 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:54:19,446 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:54:35,461 WARN received SIGTERM indicating exit request
+2025-07-20 05:54:35,461 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 05:54:35,636 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 05:54:35,805 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 05:54:35,984 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 05:54:36,680 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 05:54:36,682 INFO supervisord started with pid 1
+2025-07-20 05:54:37,687 INFO spawned: 'fastapi' with pid 7
+2025-07-20 05:54:37,691 INFO spawned: 'order_service' with pid 8
+2025-07-20 05:54:37,716 INFO spawned: 'weather_service' with pid 9
+2025-07-20 05:54:39,366 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:54:39,366 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:54:39,367 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:55:31,423 WARN received SIGTERM indicating exit request
+2025-07-20 05:55:31,423 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 05:55:31,587 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 05:55:31,747 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 05:55:31,888 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 05:56:50,518 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 05:56:50,521 INFO supervisord started with pid 1
+2025-07-20 05:56:51,527 INFO spawned: 'fastapi' with pid 7
+2025-07-20 05:56:51,530 INFO spawned: 'order_service' with pid 8
+2025-07-20 05:56:51,533 INFO spawned: 'weather_service' with pid 9
+2025-07-20 05:56:53,376 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:56:53,376 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:56:53,376 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:57:10,396 WARN received SIGTERM indicating exit request
+2025-07-20 05:57:10,396 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 05:57:10,571 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 05:57:10,742 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 05:57:10,918 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 05:57:11,588 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 05:57:11,591 INFO supervisord started with pid 1
+2025-07-20 05:57:12,595 INFO spawned: 'fastapi' with pid 7
+2025-07-20 05:57:12,598 INFO spawned: 'order_service' with pid 8
+2025-07-20 05:57:12,625 INFO spawned: 'weather_service' with pid 9
+2025-07-20 05:57:14,273 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:57:14,273 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 05:57:14,274 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:01:01,221 WARN received SIGTERM indicating exit request
+2025-07-20 06:01:01,221 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 06:01:01,402 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 06:01:01,569 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 06:01:01,704 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 06:01:02,416 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 06:01:02,419 INFO supervisord started with pid 1
+2025-07-20 06:01:03,422 INFO spawned: 'fastapi' with pid 7
+2025-07-20 06:01:03,436 INFO spawned: 'order_service' with pid 8
+2025-07-20 06:01:03,440 INFO spawned: 'weather_service' with pid 9
+2025-07-20 06:01:05,113 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:01:05,114 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:01:05,114 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:03:16,578 WARN received SIGTERM indicating exit request
+2025-07-20 06:03:16,578 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 06:03:16,704 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 06:03:16,883 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 06:03:17,034 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 06:03:17,816 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 06:03:17,824 INFO supervisord started with pid 1
+2025-07-20 06:03:18,827 INFO spawned: 'fastapi' with pid 7
+2025-07-20 06:03:18,838 INFO spawned: 'order_service' with pid 8
+2025-07-20 06:03:18,850 INFO spawned: 'weather_service' with pid 9
+2025-07-20 06:03:20,500 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:03:20,501 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:03:20,501 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:04:01,683 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 06:04:01,687 INFO supervisord started with pid 1
+2025-07-20 06:04:02,694 INFO spawned: 'fastapi' with pid 7
+2025-07-20 06:04:02,696 INFO spawned: 'order_service' with pid 8
+2025-07-20 06:04:02,699 INFO spawned: 'weather_service' with pid 9
+2025-07-20 06:04:04,428 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:04:04,428 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:04:04,429 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:05:14,506 WARN received SIGTERM indicating exit request
+2025-07-20 06:05:14,506 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 06:05:14,641 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 06:05:14,798 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 06:05:15,004 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 06:05:15,853 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 06:05:15,855 INFO supervisord started with pid 1
+2025-07-20 06:05:16,858 INFO spawned: 'fastapi' with pid 7
+2025-07-20 06:05:16,861 INFO spawned: 'order_service' with pid 8
+2025-07-20 06:05:16,871 INFO spawned: 'weather_service' with pid 9
+2025-07-20 06:05:18,586 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:05:18,586 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:05:18,586 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:06:12,868 WARN received SIGTERM indicating exit request
+2025-07-20 06:06:12,869 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 06:06:13,071 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 06:06:13,236 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 06:06:13,408 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 06:06:14,171 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 06:06:14,175 INFO supervisord started with pid 1
+2025-07-20 06:06:15,179 INFO spawned: 'fastapi' with pid 7
+2025-07-20 06:06:15,184 INFO spawned: 'order_service' with pid 8
+2025-07-20 06:06:15,197 INFO spawned: 'weather_service' with pid 9
+2025-07-20 06:06:16,859 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:06:16,872 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:06:16,924 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:13:40,635 WARN received SIGTERM indicating exit request
+2025-07-20 06:13:40,635 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 06:13:40,765 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 06:13:40,935 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 06:13:41,067 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 06:14:35,296 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 06:14:35,299 INFO supervisord started with pid 1
+2025-07-20 06:14:36,302 INFO spawned: 'fastapi' with pid 7
+2025-07-20 06:14:36,306 INFO spawned: 'order_service' with pid 8
+2025-07-20 06:14:36,314 INFO spawned: 'weather_service' with pid 9
+2025-07-20 06:14:37,978 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:14:37,979 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:14:37,979 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:24:06,259 WARN received SIGTERM indicating exit request
+2025-07-20 06:24:06,260 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 06:24:06,408 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 06:24:06,608 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 06:24:06,808 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 06:24:11,292 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 06:24:11,295 INFO supervisord started with pid 1
+2025-07-20 06:24:12,298 INFO spawned: 'fastapi' with pid 7
+2025-07-20 06:24:12,303 INFO spawned: 'order_service' with pid 8
+2025-07-20 06:24:12,313 INFO spawned: 'weather_service' with pid 9
+2025-07-20 06:24:13,994 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:24:13,995 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:24:13,998 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:32:26,517 WARN received SIGTERM indicating exit request
+2025-07-20 06:32:26,517 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 06:32:26,681 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 06:32:26,882 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 06:32:27,124 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 06:32:34,582 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 06:32:34,585 INFO supervisord started with pid 1
+2025-07-20 06:32:35,589 INFO spawned: 'fastapi' with pid 7
+2025-07-20 06:32:35,591 INFO spawned: 'order_service' with pid 8
+2025-07-20 06:32:35,596 INFO spawned: 'weather_service' with pid 9
+2025-07-20 06:32:37,271 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:32:37,271 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:32:37,271 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:34:09,371 WARN received SIGTERM indicating exit request
+2025-07-20 06:34:09,372 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 06:34:09,483 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 06:34:09,661 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 06:34:09,785 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 06:34:14,461 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 06:34:14,464 INFO supervisord started with pid 1
+2025-07-20 06:34:15,468 INFO spawned: 'fastapi' with pid 7
+2025-07-20 06:34:15,470 INFO spawned: 'order_service' with pid 8
+2025-07-20 06:34:15,476 INFO spawned: 'weather_service' with pid 9
+2025-07-20 06:34:17,147 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:34:17,148 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:34:17,148 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:45:41,916 WARN received SIGTERM indicating exit request
+2025-07-20 06:45:41,917 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 06:45:42,100 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 06:45:42,300 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 06:45:42,430 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 06:45:43,174 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 06:45:43,177 INFO supervisord started with pid 1
+2025-07-20 06:45:44,180 INFO spawned: 'fastapi' with pid 7
+2025-07-20 06:45:44,186 INFO spawned: 'order_service' with pid 8
+2025-07-20 06:45:44,197 INFO spawned: 'weather_service' with pid 9
+2025-07-20 06:45:45,865 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:45:45,878 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 06:45:45,902 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:24:26,847 WARN received SIGTERM indicating exit request
+2025-07-20 09:24:26,849 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 09:24:27,976 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 09:24:29,176 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 09:24:29,374 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 09:25:09,585 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 09:25:09,589 INFO supervisord started with pid 1
+2025-07-20 09:25:10,593 INFO spawned: 'fastapi' with pid 7
+2025-07-20 09:25:10,597 INFO spawned: 'order_service' with pid 8
+2025-07-20 09:25:10,601 INFO spawned: 'weather_service' with pid 9
+2025-07-20 09:25:12,469 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:25:12,470 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:25:12,472 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:30:04,374 WARN received SIGTERM indicating exit request
+2025-07-20 09:30:04,375 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 09:30:04,517 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 09:30:04,719 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 09:30:04,868 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 09:30:13,290 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 09:30:13,293 INFO supervisord started with pid 1
+2025-07-20 09:30:14,296 INFO spawned: 'fastapi' with pid 7
+2025-07-20 09:30:14,300 INFO spawned: 'order_service' with pid 8
+2025-07-20 09:30:14,304 INFO spawned: 'weather_service' with pid 9
+2025-07-20 09:30:15,998 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:30:15,999 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:30:15,999 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:31:45,643 WARN received SIGTERM indicating exit request
+2025-07-20 09:31:45,644 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 09:31:45,809 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 09:31:45,970 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 09:31:46,114 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 09:31:51,596 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 09:31:51,599 INFO supervisord started with pid 1
+2025-07-20 09:31:52,603 INFO spawned: 'fastapi' with pid 7
+2025-07-20 09:31:52,609 INFO spawned: 'order_service' with pid 8
+2025-07-20 09:31:52,612 INFO spawned: 'weather_service' with pid 9
+2025-07-20 09:31:54,335 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:31:54,336 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:31:54,336 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:34:23,585 WARN received SIGTERM indicating exit request
+2025-07-20 09:34:23,585 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 09:34:23,780 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 09:34:23,957 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 09:34:25,081 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 09:34:27,926 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 09:34:27,929 INFO supervisord started with pid 1
+2025-07-20 09:34:28,933 INFO spawned: 'fastapi' with pid 7
+2025-07-20 09:34:28,936 INFO spawned: 'order_service' with pid 8
+2025-07-20 09:34:28,947 INFO spawned: 'weather_service' with pid 9
+2025-07-20 09:34:30,718 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:34:30,719 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:34:30,719 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:38:53,515 WARN received SIGTERM indicating exit request
+2025-07-20 09:38:53,515 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 09:38:53,629 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 09:38:53,813 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 09:38:53,932 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 09:38:57,437 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 09:38:57,440 INFO supervisord started with pid 1
+2025-07-20 09:38:58,443 INFO spawned: 'fastapi' with pid 7
+2025-07-20 09:38:58,445 INFO spawned: 'order_service' with pid 8
+2025-07-20 09:38:58,448 INFO spawned: 'weather_service' with pid 9
+2025-07-20 09:39:00,142 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:39:00,142 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 09:39:00,142 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:02:38,369 WARN received SIGTERM indicating exit request
+2025-07-20 12:02:38,371 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 12:02:39,486 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 12:02:40,687 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 12:02:41,887 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 12:02:47,285 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 12:02:47,288 INFO supervisord started with pid 1
+2025-07-20 12:02:48,292 INFO spawned: 'fastapi' with pid 7
+2025-07-20 12:02:48,296 INFO spawned: 'order_service' with pid 8
+2025-07-20 12:02:48,299 INFO spawned: 'weather_service' with pid 9
+2025-07-20 12:02:50,146 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:02:50,148 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:02:50,149 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:07:36,154 WARN received SIGTERM indicating exit request
+2025-07-20 12:07:36,154 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 12:07:36,339 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 12:07:36,471 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 12:07:36,591 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 12:17:16,330 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 12:17:16,336 INFO supervisord started with pid 1
+2025-07-20 12:17:17,344 INFO spawned: 'fastapi' with pid 7
+2025-07-20 12:17:17,349 INFO spawned: 'order_service' with pid 8
+2025-07-20 12:17:17,353 INFO spawned: 'weather_service' with pid 9
+2025-07-20 12:17:19,010 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:17:19,011 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:17:19,011 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:34:34,110 WARN received SIGTERM indicating exit request
+2025-07-20 12:34:34,111 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-20 12:34:34,224 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-20 12:34:34,426 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-20 12:34:34,625 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-20 12:34:37,005 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 12:34:37,008 INFO supervisord started with pid 1
+2025-07-20 12:34:38,011 INFO spawned: 'fastapi' with pid 7
+2025-07-20 12:34:38,019 INFO spawned: 'order_service' with pid 8
+2025-07-20 12:34:38,023 INFO spawned: 'weather_service' with pid 9
+2025-07-20 12:34:39,787 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:34:39,788 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:34:39,788 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:49:54,330 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 12:49:54,334 INFO supervisord started with pid 1
+2025-07-20 12:49:55,336 INFO spawned: 'fastapi' with pid 8
+2025-07-20 12:49:55,339 INFO spawned: 'order_service' with pid 9
+2025-07-20 12:49:55,344 INFO spawned: 'weather_service' with pid 10
+2025-07-20 12:49:57,063 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:49:57,064 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 12:49:57,064 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:11:38,161 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 13:11:38,164 INFO supervisord started with pid 1
+2025-07-20 13:11:39,170 INFO spawned: 'fastapi' with pid 7
+2025-07-20 13:11:39,173 INFO spawned: 'order_service' with pid 8
+2025-07-20 13:11:39,175 INFO spawned: 'weather_service' with pid 9
+2025-07-20 13:11:40,893 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:11:40,895 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:11:40,895 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:15:48,793 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 13:15:48,795 INFO supervisord started with pid 1
+2025-07-20 13:15:49,801 INFO spawned: 'fastapi' with pid 7
+2025-07-20 13:15:49,809 INFO spawned: 'order_service' with pid 8
+2025-07-20 13:15:49,817 INFO spawned: 'weather_service' with pid 9
+2025-07-20 13:15:51,589 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:15:51,590 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:15:51,593 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:20:03,974 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 13:20:03,977 INFO supervisord started with pid 1
+2025-07-20 13:20:04,980 INFO spawned: 'fastapi' with pid 7
+2025-07-20 13:20:04,982 INFO spawned: 'order_service' with pid 8
+2025-07-20 13:20:04,986 INFO spawned: 'weather_service' with pid 9
+2025-07-20 13:20:06,723 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:20:06,724 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:20:06,724 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:25:32,014 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 13:25:32,016 INFO supervisord started with pid 1
+2025-07-20 13:25:33,023 INFO spawned: 'fastapi' with pid 7
+2025-07-20 13:25:33,026 INFO spawned: 'order_service' with pid 8
+2025-07-20 13:25:33,029 INFO spawned: 'weather_service' with pid 9
+2025-07-20 13:25:34,709 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:25:34,709 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:25:34,710 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:26:09,462 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-20 13:26:09,465 INFO supervisord started with pid 1
+2025-07-20 13:26:10,470 INFO spawned: 'fastapi' with pid 7
+2025-07-20 13:26:10,473 INFO spawned: 'order_service' with pid 8
+2025-07-20 13:26:10,478 INFO spawned: 'weather_service' with pid 9
+2025-07-20 13:26:12,193 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:26:12,193 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-20 13:26:12,193 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-21 07:03:24,614 WARN received SIGTERM indicating exit request
+2025-07-21 07:03:24,617 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-21 07:03:25,774 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-21 07:03:26,965 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-21 07:03:27,162 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-23 07:13:28,981 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 07:13:28,988 INFO supervisord started with pid 1
+2025-07-23 07:13:30,026 INFO spawned: 'fastapi' with pid 7
+2025-07-23 07:13:30,046 INFO spawned: 'order_service' with pid 8
+2025-07-23 07:13:30,063 INFO spawned: 'weather_service' with pid 9
+2025-07-23 07:13:31,144 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 07:13:31,144 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 07:13:31,144 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 08:31:16,254 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 08:31:16,256 INFO supervisord started with pid 1
+2025-07-23 08:31:17,278 INFO spawned: 'fastapi' with pid 7
+2025-07-23 08:31:17,302 INFO spawned: 'order_service' with pid 8
+2025-07-23 08:31:17,322 INFO spawned: 'weather_service' with pid 9
+2025-07-23 08:31:19,166 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 08:31:19,167 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 08:31:19,168 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 08:32:27,328 WARN received SIGTERM indicating exit request
+2025-07-23 08:32:27,329 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-23 08:32:28,463 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-23 08:32:28,605 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-23 08:32:29,789 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-23 08:52:37,318 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 08:52:37,320 INFO supervisord started with pid 1
+2025-07-23 08:52:38,360 INFO spawned: 'fastapi' with pid 7
+2025-07-23 08:52:38,363 INFO spawned: 'order_service' with pid 8
+2025-07-23 08:52:38,368 INFO spawned: 'weather_service' with pid 9
+2025-07-23 08:52:40,201 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 08:52:40,202 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 08:52:40,202 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:20:43,280 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 09:20:43,282 INFO supervisord started with pid 1
+2025-07-23 09:20:44,296 INFO spawned: 'fastapi' with pid 7
+2025-07-23 09:20:44,301 INFO spawned: 'order_service' with pid 8
+2025-07-23 09:20:44,304 INFO spawned: 'weather_service' with pid 9
+2025-07-23 09:20:46,071 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:20:46,071 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:20:46,073 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:21:54,019 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 09:21:54,021 INFO supervisord started with pid 1
+2025-07-23 09:21:55,059 INFO spawned: 'fastapi' with pid 7
+2025-07-23 09:21:55,063 INFO spawned: 'order_service' with pid 8
+2025-07-23 09:21:55,065 INFO spawned: 'weather_service' with pid 9
+2025-07-23 09:21:56,829 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:21:56,830 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:21:56,830 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:25:17,137 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 09:25:17,140 INFO supervisord started with pid 1
+2025-07-23 09:25:18,174 INFO spawned: 'fastapi' with pid 7
+2025-07-23 09:25:18,177 INFO spawned: 'order_service' with pid 8
+2025-07-23 09:25:18,185 INFO spawned: 'weather_service' with pid 9
+2025-07-23 09:25:19,941 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:25:19,942 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:25:19,942 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:32:43,489 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 09:32:43,492 INFO supervisord started with pid 1
+2025-07-23 09:32:44,499 INFO spawned: 'fastapi' with pid 7
+2025-07-23 09:32:44,502 INFO spawned: 'order_service' with pid 8
+2025-07-23 09:32:44,504 INFO spawned: 'weather_service' with pid 9
+2025-07-23 09:32:46,237 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:32:46,237 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:32:46,237 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:37:31,800 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 09:37:31,803 INFO supervisord started with pid 1
+2025-07-23 09:37:32,810 INFO spawned: 'fastapi' with pid 7
+2025-07-23 09:37:32,814 INFO spawned: 'order_service' with pid 8
+2025-07-23 09:37:32,818 INFO spawned: 'weather_service' with pid 9
+2025-07-23 09:37:34,649 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:37:34,651 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:37:34,651 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:47:07,025 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 09:47:07,027 INFO supervisord started with pid 1
+2025-07-23 09:47:08,035 INFO spawned: 'fastapi' with pid 7
+2025-07-23 09:47:08,045 INFO spawned: 'order_service' with pid 8
+2025-07-23 09:47:08,054 INFO spawned: 'weather_service' with pid 9
+2025-07-23 09:47:09,788 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:47:09,789 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:47:09,789 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:48:54,233 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 09:48:54,235 INFO supervisord started with pid 1
+2025-07-23 09:48:55,267 INFO spawned: 'fastapi' with pid 7
+2025-07-23 09:48:55,271 INFO spawned: 'order_service' with pid 8
+2025-07-23 09:48:55,276 INFO spawned: 'weather_service' with pid 9
+2025-07-23 09:48:56,061 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 09:48:57,080 INFO spawned: 'fastapi' with pid 10
+2025-07-23 09:48:57,082 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:48:57,082 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 09:48:57,819 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 09:48:59,851 INFO spawned: 'fastapi' with pid 11
+2025-07-23 09:49:00,582 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 09:49:03,646 INFO spawned: 'fastapi' with pid 12
+2025-07-23 09:49:04,442 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 09:49:05,463 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 10:01:50,197 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 10:01:50,200 INFO supervisord started with pid 1
+2025-07-23 10:01:51,210 INFO spawned: 'fastapi' with pid 7
+2025-07-23 10:01:51,213 INFO spawned: 'order_service' with pid 8
+2025-07-23 10:01:51,218 INFO spawned: 'weather_service' with pid 9
+2025-07-23 10:01:53,151 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:01:53,152 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:01:53,152 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:07:48,832 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 10:07:48,834 INFO supervisord started with pid 1
+2025-07-23 10:07:49,869 INFO spawned: 'fastapi' with pid 7
+2025-07-23 10:07:49,871 INFO spawned: 'order_service' with pid 8
+2025-07-23 10:07:49,877 INFO spawned: 'weather_service' with pid 9
+2025-07-23 10:07:51,644 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:07:51,644 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:07:51,644 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:21:30,642 WARN received SIGTERM indicating exit request
+2025-07-23 10:21:30,642 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-23 10:21:30,822 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-23 10:21:30,973 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-23 10:21:31,095 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-23 10:21:36,488 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 10:21:36,490 INFO supervisord started with pid 1
+2025-07-23 10:21:37,524 INFO spawned: 'fastapi' with pid 7
+2025-07-23 10:21:37,527 INFO spawned: 'order_service' with pid 8
+2025-07-23 10:21:37,534 INFO spawned: 'weather_service' with pid 9
+2025-07-23 10:21:39,241 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:21:39,242 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:21:39,242 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:23:19,471 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 10:23:19,473 INFO supervisord started with pid 1
+2025-07-23 10:23:20,484 INFO spawned: 'fastapi' with pid 7
+2025-07-23 10:23:20,488 INFO spawned: 'order_service' with pid 8
+2025-07-23 10:23:20,495 INFO spawned: 'weather_service' with pid 9
+2025-07-23 10:23:22,208 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:23:22,209 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:23:22,209 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:24:16,871 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 10:24:16,875 INFO supervisord started with pid 1
+2025-07-23 10:24:17,894 INFO spawned: 'fastapi' with pid 7
+2025-07-23 10:24:17,898 INFO spawned: 'order_service' with pid 8
+2025-07-23 10:24:17,902 INFO spawned: 'weather_service' with pid 9
+2025-07-23 10:24:18,665 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:24:19,670 INFO spawned: 'fastapi' with pid 10
+2025-07-23 10:24:19,671 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:24:19,671 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:24:20,434 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:24:22,444 INFO spawned: 'fastapi' with pid 11
+2025-07-23 10:24:23,178 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:24:26,653 INFO spawned: 'fastapi' with pid 12
+2025-07-23 10:24:27,415 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:24:28,419 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 10:24:59,711 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 10:24:59,714 INFO supervisord started with pid 1
+2025-07-23 10:25:00,722 INFO spawned: 'fastapi' with pid 7
+2025-07-23 10:25:00,726 INFO spawned: 'order_service' with pid 8
+2025-07-23 10:25:00,729 INFO spawned: 'weather_service' with pid 9
+2025-07-23 10:25:01,697 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:25:02,736 INFO spawned: 'fastapi' with pid 10
+2025-07-23 10:25:02,737 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:25:02,737 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:25:03,465 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:25:05,485 INFO spawned: 'fastapi' with pid 11
+2025-07-23 10:25:06,222 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:25:09,238 INFO spawned: 'fastapi' with pid 12
+2025-07-23 10:25:09,963 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:25:10,966 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 10:25:22,176 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 10:25:22,180 INFO supervisord started with pid 1
+2025-07-23 10:25:23,192 INFO spawned: 'fastapi' with pid 7
+2025-07-23 10:25:23,198 INFO spawned: 'order_service' with pid 8
+2025-07-23 10:25:23,202 INFO spawned: 'weather_service' with pid 9
+2025-07-23 10:25:23,972 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:25:24,978 INFO spawned: 'fastapi' with pid 10
+2025-07-23 10:25:24,979 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:25:24,981 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:25:25,728 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:25:27,770 INFO spawned: 'fastapi' with pid 11
+2025-07-23 10:25:28,513 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:25:31,571 INFO spawned: 'fastapi' with pid 12
+2025-07-23 10:25:32,396 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 10:25:33,410 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 10:27:30,883 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 10:27:30,885 INFO supervisord started with pid 1
+2025-07-23 10:27:31,896 INFO spawned: 'fastapi' with pid 7
+2025-07-23 10:27:31,898 INFO spawned: 'order_service' with pid 8
+2025-07-23 10:27:31,900 INFO spawned: 'weather_service' with pid 9
+2025-07-23 10:27:33,815 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:27:33,815 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 10:27:33,815 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 12:52:16,685 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 12:52:16,688 INFO supervisord started with pid 1
+2025-07-23 12:52:17,700 INFO spawned: 'fastapi' with pid 7
+2025-07-23 12:52:17,707 INFO spawned: 'order_service' with pid 8
+2025-07-23 12:52:17,713 INFO spawned: 'weather_service' with pid 9
+2025-07-23 12:52:18,586 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:52:19,591 INFO spawned: 'fastapi' with pid 10
+2025-07-23 12:52:19,591 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 12:52:19,592 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 12:52:20,303 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:52:22,542 INFO spawned: 'fastapi' with pid 11
+2025-07-23 12:52:23,315 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:52:26,321 INFO spawned: 'fastapi' with pid 12
+2025-07-23 12:52:27,053 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:52:28,080 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 12:53:39,813 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 12:53:39,815 INFO supervisord started with pid 1
+2025-07-23 12:53:40,835 INFO spawned: 'fastapi' with pid 7
+2025-07-23 12:53:40,837 INFO spawned: 'order_service' with pid 8
+2025-07-23 12:53:40,840 INFO spawned: 'weather_service' with pid 9
+2025-07-23 12:53:41,602 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:53:42,607 INFO spawned: 'fastapi' with pid 10
+2025-07-23 12:53:42,608 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 12:53:42,608 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 12:53:43,341 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:53:45,404 INFO spawned: 'fastapi' with pid 11
+2025-07-23 12:53:46,149 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:53:49,401 INFO spawned: 'fastapi' with pid 12
+2025-07-23 12:53:50,137 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:53:51,140 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 12:54:59,108 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 12:54:59,111 INFO supervisord started with pid 1
+2025-07-23 12:55:00,115 INFO spawned: 'fastapi' with pid 7
+2025-07-23 12:55:00,119 INFO spawned: 'order_service' with pid 8
+2025-07-23 12:55:00,122 INFO spawned: 'weather_service' with pid 9
+2025-07-23 12:55:01,067 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:55:02,071 INFO spawned: 'fastapi' with pid 10
+2025-07-23 12:55:02,072 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 12:55:02,072 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 12:55:02,821 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:55:04,837 INFO spawned: 'fastapi' with pid 11
+2025-07-23 12:55:05,591 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:55:08,611 INFO spawned: 'fastapi' with pid 12
+2025-07-23 12:55:09,344 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 12:55:10,347 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 13:02:43,102 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:02:43,105 INFO supervisord started with pid 1
+2025-07-23 13:02:44,110 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:02:44,112 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:02:44,115 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:02:44,994 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:02:45,999 INFO spawned: 'fastapi' with pid 10
+2025-07-23 13:02:46,000 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:02:46,000 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:02:46,697 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:02:48,704 INFO spawned: 'fastapi' with pid 11
+2025-07-23 13:02:49,424 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:02:52,431 INFO spawned: 'fastapi' with pid 12
+2025-07-23 13:02:53,138 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:02:54,142 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 13:06:22,422 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:06:22,426 INFO supervisord started with pid 1
+2025-07-23 13:06:23,445 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:06:23,450 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:06:23,453 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:06:24,363 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:06:25,368 INFO spawned: 'fastapi' with pid 10
+2025-07-23 13:06:25,369 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:06:25,369 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:06:26,081 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:06:28,086 INFO spawned: 'fastapi' with pid 11
+2025-07-23 13:06:28,805 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:06:31,857 INFO spawned: 'fastapi' with pid 12
+2025-07-23 13:06:32,584 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:06:33,586 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 13:07:52,231 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:07:52,234 INFO supervisord started with pid 1
+2025-07-23 13:07:53,239 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:07:53,241 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:07:53,243 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:07:53,981 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:07:54,991 INFO spawned: 'fastapi' with pid 10
+2025-07-23 13:07:54,995 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:07:54,995 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:07:55,722 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:07:57,731 INFO spawned: 'fastapi' with pid 11
+2025-07-23 13:07:58,458 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:08:01,479 INFO spawned: 'fastapi' with pid 12
+2025-07-23 13:08:02,215 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:08:03,220 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 13:09:54,450 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:09:54,452 INFO supervisord started with pid 1
+2025-07-23 13:09:55,466 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:09:55,471 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:09:55,479 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:09:56,208 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:09:57,223 INFO spawned: 'fastapi' with pid 10
+2025-07-23 13:09:57,224 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:09:57,224 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:09:57,916 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:09:59,928 INFO spawned: 'fastapi' with pid 11
+2025-07-23 13:10:00,649 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:10:03,657 INFO spawned: 'fastapi' with pid 12
+2025-07-23 13:10:04,391 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:10:05,393 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 13:11:50,277 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:11:50,279 INFO supervisord started with pid 1
+2025-07-23 13:11:51,285 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:11:51,287 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:11:51,291 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:11:52,048 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:11:53,065 INFO spawned: 'fastapi' with pid 10
+2025-07-23 13:11:53,065 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:11:53,065 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:11:53,813 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:11:55,823 INFO spawned: 'fastapi' with pid 11
+2025-07-23 13:11:56,558 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:11:59,566 INFO spawned: 'fastapi' with pid 12
+2025-07-23 13:12:00,286 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:12:01,289 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 13:13:29,472 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:13:29,474 INFO supervisord started with pid 1
+2025-07-23 13:13:30,489 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:13:30,497 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:13:30,503 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:13:31,246 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:13:32,263 INFO spawned: 'fastapi' with pid 10
+2025-07-23 13:13:32,264 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:13:32,264 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:13:32,970 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:13:35,745 INFO spawned: 'fastapi' with pid 11
+2025-07-23 13:13:36,441 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:13:39,446 INFO spawned: 'fastapi' with pid 12
+2025-07-23 13:13:40,245 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:13:41,247 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 13:15:01,971 WARN received SIGTERM indicating exit request
+2025-07-23 13:15:01,972 INFO waiting for order_service, weather_service to die
+2025-07-23 13:15:02,176 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-23 13:15:02,324 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-23 13:15:27,744 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:15:27,749 INFO supervisord started with pid 1
+2025-07-23 13:15:28,759 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:15:28,762 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:15:28,769 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:15:29,696 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:15:30,700 INFO spawned: 'fastapi' with pid 10
+2025-07-23 13:15:30,701 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:15:30,701 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:15:31,404 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:15:34,187 INFO spawned: 'fastapi' with pid 11
+2025-07-23 13:15:34,878 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:15:37,887 INFO spawned: 'fastapi' with pid 12
+2025-07-23 13:15:38,578 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:15:39,580 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 13:18:32,039 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:18:32,042 INFO supervisord started with pid 1
+2025-07-23 13:18:33,047 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:18:33,049 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:18:33,053 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:18:33,925 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:18:34,929 INFO spawned: 'fastapi' with pid 10
+2025-07-23 13:18:34,930 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:18:34,930 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:18:35,604 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:18:37,609 INFO spawned: 'fastapi' with pid 11
+2025-07-23 13:18:38,310 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:18:41,321 INFO spawned: 'fastapi' with pid 12
+2025-07-23 13:18:42,028 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 13:18:43,042 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 13:38:02,517 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:38:02,519 INFO supervisord started with pid 1
+2025-07-23 13:38:03,521 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:38:03,524 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:38:03,526 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:38:05,383 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:38:05,389 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:38:05,395 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:42:36,603 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:42:36,605 INFO supervisord started with pid 1
+2025-07-23 13:42:37,609 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:42:37,611 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:42:37,613 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:42:39,477 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:42:39,481 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:42:39,486 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:54:37,685 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:54:37,688 INFO supervisord started with pid 1
+2025-07-23 13:54:38,693 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:54:38,697 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:54:38,703 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:54:39,768 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:54:39,768 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:54:39,769 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:54:46,446 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 13:54:46,448 INFO supervisord started with pid 1
+2025-07-23 13:54:47,453 INFO spawned: 'fastapi' with pid 7
+2025-07-23 13:54:47,456 INFO spawned: 'order_service' with pid 8
+2025-07-23 13:54:47,460 INFO spawned: 'weather_service' with pid 9
+2025-07-23 13:54:49,282 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:54:49,283 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 13:54:49,283 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:03:01,088 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 14:03:01,091 INFO supervisord started with pid 1
+2025-07-23 14:03:02,096 INFO spawned: 'fastapi' with pid 7
+2025-07-23 14:03:02,099 INFO spawned: 'order_service' with pid 8
+2025-07-23 14:03:02,102 INFO spawned: 'weather_service' with pid 9
+2025-07-23 14:03:03,150 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:03:03,151 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:03:03,151 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:04:06,015 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 14:04:06,018 INFO supervisord started with pid 1
+2025-07-23 14:04:07,021 INFO spawned: 'fastapi' with pid 7
+2025-07-23 14:04:07,023 INFO spawned: 'order_service' with pid 8
+2025-07-23 14:04:07,026 INFO spawned: 'weather_service' with pid 9
+2025-07-23 14:04:08,947 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:04:08,971 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:04:08,975 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:45:16,629 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 14:45:16,631 INFO supervisord started with pid 1
+2025-07-23 14:45:17,634 INFO spawned: 'fastapi' with pid 7
+2025-07-23 14:45:17,638 INFO spawned: 'order_service' with pid 8
+2025-07-23 14:45:17,640 INFO spawned: 'weather_service' with pid 9
+2025-07-23 14:45:19,502 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:45:19,503 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:45:19,503 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:52:11,520 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 14:52:11,522 INFO supervisord started with pid 1
+2025-07-23 14:52:12,526 INFO spawned: 'fastapi' with pid 13
+2025-07-23 14:52:12,528 INFO spawned: 'order_service' with pid 14
+2025-07-23 14:52:12,530 INFO spawned: 'weather_service' with pid 15
+2025-07-23 14:52:14,388 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:52:14,388 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 14:52:14,388 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 16:36:55,890 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 16:36:55,894 INFO supervisord started with pid 1
+2025-07-23 16:36:56,899 INFO spawned: 'fastapi' with pid 7
+2025-07-23 16:36:56,903 INFO spawned: 'order_service' with pid 8
+2025-07-23 16:36:56,906 INFO spawned: 'weather_service' with pid 9
+2025-07-23 16:36:57,102 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:36:58,593 INFO spawned: 'fastapi' with pid 10
+2025-07-23 16:36:58,593 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 16:36:58,594 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 16:36:58,707 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:37:00,713 INFO spawned: 'fastapi' with pid 11
+2025-07-23 16:37:00,807 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:37:03,813 INFO spawned: 'fastapi' with pid 12
+2025-07-23 16:37:03,904 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:37:04,908 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 16:37:51,193 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 16:37:51,195 INFO supervisord started with pid 1
+2025-07-23 16:37:52,200 INFO spawned: 'fastapi' with pid 7
+2025-07-23 16:37:52,202 INFO spawned: 'order_service' with pid 8
+2025-07-23 16:37:52,205 INFO spawned: 'weather_service' with pid 9
+2025-07-23 16:37:52,297 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:37:53,596 INFO spawned: 'fastapi' with pid 10
+2025-07-23 16:37:53,597 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 16:37:53,599 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 16:37:53,691 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:37:55,697 INFO spawned: 'fastapi' with pid 11
+2025-07-23 16:37:55,782 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:37:58,788 INFO spawned: 'fastapi' with pid 12
+2025-07-23 16:37:58,871 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:37:59,873 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 16:40:42,775 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 16:40:42,777 INFO supervisord started with pid 1
+2025-07-23 16:40:43,781 INFO spawned: 'fastapi' with pid 7
+2025-07-23 16:40:43,785 INFO spawned: 'order_service' with pid 8
+2025-07-23 16:40:43,787 INFO spawned: 'weather_service' with pid 9
+2025-07-23 16:40:43,896 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:40:45,202 INFO spawned: 'fastapi' with pid 10
+2025-07-23 16:40:45,203 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 16:40:45,203 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 16:40:45,289 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:40:47,294 INFO spawned: 'fastapi' with pid 11
+2025-07-23 16:40:47,384 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:40:50,390 INFO spawned: 'fastapi' with pid 12
+2025-07-23 16:40:50,482 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:40:51,484 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 16:42:33,592 WARN received SIGTERM indicating exit request
+2025-07-23 16:42:33,593 INFO waiting for order_service, weather_service to die
+2025-07-23 16:42:33,753 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-23 16:42:33,920 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-23 16:43:13,280 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 16:43:13,284 INFO supervisord started with pid 1
+2025-07-23 16:43:14,288 INFO spawned: 'fastapi' with pid 7
+2025-07-23 16:43:14,291 INFO spawned: 'order_service' with pid 8
+2025-07-23 16:43:14,294 INFO spawned: 'weather_service' with pid 9
+2025-07-23 16:43:14,381 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:43:15,678 INFO spawned: 'fastapi' with pid 10
+2025-07-23 16:43:15,679 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 16:43:15,680 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 16:43:15,768 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:43:17,774 INFO spawned: 'fastapi' with pid 11
+2025-07-23 16:43:17,863 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:43:20,869 INFO spawned: 'fastapi' with pid 12
+2025-07-23 16:43:20,957 WARN exited: fastapi (exit status 1; not expected)
+2025-07-23 16:43:21,959 INFO gave up: fastapi entered FATAL state, too many start retries too quickly
+2025-07-23 16:51:58,765 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 16:51:58,767 INFO supervisord started with pid 1
+2025-07-23 16:51:59,771 INFO spawned: 'fastapi' with pid 7
+2025-07-23 16:51:59,774 INFO spawned: 'order_service' with pid 8
+2025-07-23 16:51:59,777 INFO spawned: 'weather_service' with pid 9
+2025-07-23 16:52:00,844 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 16:52:00,844 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 16:52:00,845 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:02:44,176 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 17:02:44,178 INFO supervisord started with pid 1
+2025-07-23 17:02:45,183 INFO spawned: 'fastapi' with pid 7
+2025-07-23 17:02:45,186 INFO spawned: 'order_service' with pid 8
+2025-07-23 17:02:45,190 INFO spawned: 'weather_service' with pid 9
+2025-07-23 17:02:46,231 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:02:46,231 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:02:46,231 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:26:15,216 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 17:26:15,219 INFO supervisord started with pid 1
+2025-07-23 17:26:16,226 INFO spawned: 'fastapi' with pid 7
+2025-07-23 17:26:16,231 INFO spawned: 'order_service' with pid 8
+2025-07-23 17:26:16,237 INFO spawned: 'weather_service' with pid 9
+2025-07-23 17:26:17,394 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:26:17,395 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:26:17,395 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:31:47,191 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 17:31:47,195 INFO supervisord started with pid 1
+2025-07-23 17:31:48,199 INFO spawned: 'fastapi' with pid 7
+2025-07-23 17:31:48,202 INFO spawned: 'order_service' with pid 8
+2025-07-23 17:31:48,204 INFO spawned: 'weather_service' with pid 9
+2025-07-23 17:31:49,289 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:31:49,289 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:31:49,290 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:34:59,133 WARN received SIGTERM indicating exit request
+2025-07-23 17:34:59,134 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-23 17:34:59,262 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-23 17:34:59,424 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-23 17:35:00,579 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-23 17:35:19,990 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 17:35:19,993 INFO supervisord started with pid 1
+2025-07-23 17:35:20,997 INFO spawned: 'fastapi' with pid 7
+2025-07-23 17:35:21,000 INFO spawned: 'order_service' with pid 8
+2025-07-23 17:35:21,002 INFO spawned: 'weather_service' with pid 9
+2025-07-23 17:35:22,097 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:35:22,097 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:35:22,097 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:38:37,329 WARN received SIGTERM indicating exit request
+2025-07-23 17:38:37,330 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-23 17:38:37,500 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-23 17:38:37,643 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-23 17:38:38,807 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-23 17:38:42,385 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 17:38:42,388 INFO supervisord started with pid 1
+2025-07-23 17:38:43,392 INFO spawned: 'fastapi' with pid 7
+2025-07-23 17:38:43,396 INFO spawned: 'order_service' with pid 8
+2025-07-23 17:38:43,400 INFO spawned: 'weather_service' with pid 9
+2025-07-23 17:38:44,445 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:38:44,445 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:38:44,445 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:41:57,368 WARN received SIGTERM indicating exit request
+2025-07-23 17:41:57,369 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-23 17:41:57,553 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-23 17:41:57,693 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-23 17:41:58,911 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-23 17:42:39,663 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 17:42:39,666 INFO supervisord started with pid 1
+2025-07-23 17:42:40,670 INFO spawned: 'fastapi' with pid 7
+2025-07-23 17:42:40,672 INFO spawned: 'order_service' with pid 8
+2025-07-23 17:42:40,677 INFO spawned: 'weather_service' with pid 9
+2025-07-23 17:42:41,792 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:42:41,792 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:42:41,792 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:45:30,828 WARN received SIGTERM indicating exit request
+2025-07-23 17:45:30,829 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-23 17:45:31,006 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-23 17:45:31,125 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-23 17:45:32,343 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-24 08:06:02,084 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-24 08:06:02,087 INFO supervisord started with pid 1
+2025-07-24 08:06:03,091 INFO spawned: 'fastapi' with pid 8
+2025-07-24 08:06:03,095 INFO spawned: 'order_service' with pid 9
+2025-07-24 08:06:03,098 INFO spawned: 'weather_service' with pid 10
+2025-07-24 08:06:04,221 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-24 08:06:04,221 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-24 08:06:04,221 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-24 08:33:10,376 WARN received SIGTERM indicating exit request
+2025-07-24 08:33:10,377 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-24 08:33:10,530 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-24 08:33:10,729 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-24 08:33:11,951 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-24 08:33:45,597 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-24 08:33:45,600 INFO supervisord started with pid 1
+2025-07-24 08:33:46,603 INFO spawned: 'fastapi' with pid 7
+2025-07-24 08:33:46,609 INFO spawned: 'order_service' with pid 8
+2025-07-24 08:33:46,614 INFO spawned: 'weather_service' with pid 9
+2025-07-24 08:33:47,743 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-24 08:33:47,743 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-24 08:33:47,743 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-24 08:51:05,053 WARN received SIGTERM indicating exit request
+2025-07-24 08:51:05,054 INFO waiting for fastapi, order_service, weather_service to die
+2025-07-24 08:51:05,220 WARN stopped: weather_service (terminated by SIGTERM)
+2025-07-24 08:51:05,419 WARN stopped: order_service (terminated by SIGTERM)
+2025-07-24 08:51:06,637 WARN stopped: fastapi (terminated by SIGTERM)
+2025-07-24 09:27:24,450 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-24 09:27:24,454 INFO supervisord started with pid 1
+2025-07-24 09:27:25,461 INFO spawned: 'fastapi' with pid 7
+2025-07-24 09:27:25,465 INFO spawned: 'order_service' with pid 8
+2025-07-24 09:27:25,469 INFO spawned: 'weather_service' with pid 9
+2025-07-24 09:27:26,799 INFO success: fastapi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-24 09:27:26,799 INFO success: order_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-24 09:27:26,799 INFO success: weather_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

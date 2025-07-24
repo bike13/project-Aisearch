@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400" width="1000" height="1400">
+  <defs>
+    <style>
+      .node { fill: #ffffff; stroke: #333333; stroke-width: 2; }
+      .decision { fill: #e3f2fd; stroke: #1976d2; stroke-width: 2; }
+      .process { fill: #f3e5f5; stroke: #7b1fa2; stroke-width: 2; }
+      .error { fill: #ffebee; stroke: #d32f2f; stroke-width: 2; }
+      .success { fill: #e8f5e8; stroke: #388e3c; stroke-width: 2; }
+      .web-search { fill: #fff3e0; stroke: #f57c00; stroke-width: 2; }
+      .agent { fill: #e1f5fe; stroke: #0277bd; stroke-width: 2; }
+      .text { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+      <!-- 
+        .arrow 样式用于流程图中的箭头线条。
+        - stroke: #333333;  设置箭头线的颜色为深灰色。
+        - stroke-width: 2;  设置线宽为2像素。
+        - fill: none;       箭头线本身不填充颜色（透明）。
+        - marker-end: url(#arrowhead);  在箭头线的末端添加自定义的箭头形状（由 <marker id="arrowhead"> 定义）。
+      -->
+      .arrow { stroke: #333333; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .label { font-family: Arial, sans-serif; font-size: 10px; fill: #666666; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333" />
+    </marker>
+  </defs>
+  
+  <!-- 开始 -->
+  <rect x="450" y="20" width="100" height="40" rx="5" class="success"/>
+  <text x="500" y="42" class="text">开始</text>
+  
+  <!-- 获取请求参数 -->
+  <rect x="400" y="80" width="200" height="40" rx="5" class="process"/>
+  <text x="500" y="102" class="text">获取请求参数</text>
+  
+  <!-- 检查会话ID -->
+  <polygon points="500,140 550,160 500,180 450,160" class="decision"/>
+  <text x="500" y="165" class="text">会话ID存在?</text>
+  
+  <!-- 生成新会话ID -->
+  <rect x="650" y="140" width="150" height="40" rx="5" class="process"/>
+  <text x="725" y="162" class="text">生成新会话ID</text>
+  
+  <!-- 使用现有会话 -->
+  <rect x="200" y="140" width="150" height="40" rx="5" class="process"/>
+  <text x="275" y="162" class="text">使用现有会话</text>
+  
+  <!-- 构建上下文信息 -->
+  <rect x="400" y="200" width="200" height="40" rx="5" class="process"/>
+  <text x="500" y="222" class="text">构建上下文信息</text>
+  
+  <!-- 是否启用联网搜索 -->
+  <polygon points="500,260 550,280 500,300 450,280" class="decision"/>
+  <text x="500" y="285" class="text">启用联网搜索?</text>
+  
+  <!-- 执行联网搜索 -->
+  <rect x="650" y="260" width="150" height="40" rx="5" class="web-search"/>
+  <text x="725" y="282" class="text">执行联网搜索</text>
+  
+  <!-- 是否启用RAG搜索 -->
+  <polygon points="500,320 550,340 500,360 450,340" class="decision"/>
+  <text x="500" y="345" class="text">启用RAG搜索?</text>
+  
+  <!-- 执行RAG搜索 -->
+  <rect x="650" y="320" width="150" height="40" rx="5" class="web-search"/>
+  <text x="725" y="342" class="text">执行RAG搜索</text>
+  
+  <!-- 是否启用Agent模式 -->
+  <polygon points="500,380 550,400 500,420 450,400" class="decision"/>
+  <text x="500" y="405" class="text">启用Agent模式?</text>
+  
+  <!-- Agent模式处理 -->
+  <rect x="650" y="380" width="150" height="40" rx="5" class="agent"/>
+  <text x="725" y="402" class="text">Agent模式处理</text>
+  
+  <!-- 普通问答模式 -->
+  <rect x="200" y="380" width="150" height="40" rx="5" class="process"/>
+  <text x="275" y="402" class="text">普通问答模式</text>
+  
+  <!-- Agent分支：查询可用工具 -->
+  <rect x="650" y="440" width="150" height="40" rx="5" class="process"/>
+  <text x="725" y="462" class="text">查询可用工具</text>
+  
+  <!-- 构造工具描述 -->
+  <rect x="650" y="500" width="150" height="40" rx="5" class="process"/>
+  <text x="725" y="522" class="text">构造工具描述</text>
+  
+  <!-- 构造Agent决策prompt -->
+  <rect x="650" y="560" width="150" height="40" rx="5" class="process"/>
+  <text x="725" y="582" class="text">构造Agent决策prompt</text>
+  
+  <!-- 调用大模型决策 -->
+  <rect x="650" y="620" width="150" height="40" rx="5" class="process"/>
+  <text x="725" y="642" class="text">调用大模型决策</text>
+  
+  <!-- 返回JSON格式? -->
+  <polygon points="725,680 775,700 725,720 675,700" class="decision"/>
+  <text x="725" y="705" class="text">返回JSON格式?</text>
+  
+  <!-- 解析工具调用参数 -->
+  <rect x="500" y="680" width="150" height="40" rx="5" class="process"/>
+  <text x="575" y="702" class="text">解析工具调用参数</text>
+  
+  <!-- 通过SSE调用工具 -->
+  <rect x="500" y="740" width="150" height="40" rx="5" class="process"/>
+  <text x="575" y="762" class="text">通过SSE调用工具</text>
+  
+  <!-- 工具调用成功? -->
+  <polygon points="575,800 625,820 575,840 525,820" class="decision"/>
+  <text x="575" y="825" class="text">工具调用成功?</text>
+  
+  <!-- 将工具结果作为上下文 -->
+  <rect x="350" y="800" width="150" height="40" rx="5" class="process"/>
+  <text x="425" y="822" class="text">将工具结果作为上下文</text>
+  
+  <!-- 返回工具调用错误 -->
+  <rect x="750" y="800" width="150" height="40" rx="5" class="error"/>
+  <text x="825" y="822" class="text">返回工具调用错误</text>
+  
+  <!-- 再次调用大模型 -->
+  <rect x="350" y="860" width="150" height="40" rx="5" class="process"/>
+  <text x="425" y="882" class="text">再次调用大模型</text>
+  
+  <!-- 直接返回答案 -->
+  <rect x="850" y="680" width="150" height="40" rx="5" class="process"/>
+  <text x="925" y="702" class="text">直接返回答案</text>
+  
+  <!-- 普通模式：构造问答prompt -->
+  <!-- class有以下几种: process, decision, error, success, text, label, arrow -->
+  <rect x="200" y="440" width="150" height="40" rx="5" class="process"/>
+  <text x="275" y="462" class="text">构造问答prompt</text>
+  
+  <!-- 调用大模型 -->
+  <rect x="200" y="500" width="150" height="40" rx="5" class="process"/>
+  <text x="275" y="522" class="text">调用大模型</text>
+  
+  <!-- 调用成功? -->
+  <polygon points="275,560 325,580 275,600 225,580" class="decision"/>
+  <text x="275" y="585" class="text">调用成功?</text>
+  
+  <!-- 流式返回内容 -->
+  <rect x="50" y="560" width="150" height="40" rx="5" class="process"/>
+  <text x="125" y="582" class="text">流式返回内容</text>
+  
+  <!-- 返回API错误 -->
+  <rect x="400" y="560" width="150" height="40" rx="5" class="error"/>
+  <text x="475" y="582" class="text">返回API错误</text>
+  
+  <!-- 流式返回结果 -->
+  <rect x="400" y="920" width="200" height="40" rx="5" class="process"/>
+  <text x="500" y="942" class="text">流式返回结果</text>
+  
+  <!-- 写入数据库 -->
+  <rect x="400" y="980" width="200" height="40" rx="5" class="process"/>
+  <text x="500" y="1002" class="text">写入数据库</text>
+  
+  <!-- 结束 -->
+  <rect x="450" y="1040" width="100" height="40" rx="5" class="success"/>
+  <text x="500" y="1062" class="text">结束</text>
+  
+  <!-- 精确指向边缘的箭头连接 -->
+  <!-- 开始到获取参数 -->
+  <path d="M 500 60 L 500 80" class="arrow"/>
+  
+  <!-- 获取参数到检查会话ID -->
+  <path d="M 500 120 L 500 140" class="arrow"/>
+  
+  <!-- 检查会话ID到生成新会话ID -->
+  <path d="M 550 160 L 650 160" class="arrow"/>
+  <text x="600" y="155" class="label">否</text>
+  
+  <!-- 检查会话ID到使用现有会话 -->
+  <path d="M 450 160 L 350 160" class="arrow"/>
+  <text x="400" y="155" class="label">是</text>
+  
+  <!-- 生成新会话ID到构建上下文 -->
+  <path d="M 725 180 L 725 200 L 500 200" class="arrow"/>
+  
+  <!-- 使用现有会话到构建上下文 -->
+  <path d="M 275 180 L 275 200 L 400 200" class="arrow"/>
+  
+  <!-- 构建上下文到联网搜索判断 -->
+  <path d="M 500 240 L 500 260" class="arrow"/>
+  
+  <!-- 联网搜索判断到执行联网搜索 -->
+  <path d="M 550 280 L 650 280" class="arrow"/>
+  <text x="600" y="275" class="label">是</text>
+  
+  <!-- 执行联网搜索到RAG搜索判断 -->
+  <path d="M 725 300 L 725 320 L 500 320" class="arrow"/>
+  
+  <!-- 联网搜索判断到RAG搜索判断 -->
+  <path d="M 450 280 L 450 320 L 500 320" class="arrow"/>
+  <text x="475" y="315" class="label">否</text>
+  
+  <!-- RAG搜索判断到执行RAG搜索 -->
+  <path d="M 550 340 L 650 340" class="arrow"/>
+  <text x="600" y="335" class="label">是</text>
+  
+  <!-- 执行RAG搜索到Agent模式判断 -->
+  <path d="M 725 360 L 725 380" class="arrow"/>
+  
+  <!-- RAG搜索判断到Agent模式判断 -->
+  <path d="M 450 340 L 450 380 L 500 380" class="arrow"/>
+  <text x="475" y="375" class="label">否</text>
+  
+  <!-- Agent模式判断到Agent处理 -->
+  <path d="M 550 400 L 650 400" class="arrow"/>
+  <text x="600" y="395" class="label">是</text>
+  
+  <!-- Agent模式判断到普通问答 -->
+  <path d="M 450 400 L 350 400" class="arrow"/>
+  <text x="400" y="395" class="label">否</text>
+  
+  <!-- Agent处理到查询工具 -->
+  <path d="M 725 420 L 725 440" class="arrow"/>
+  
+  <!-- 查询工具到构造描述 -->
+  <path d="M 725 480 L 725 500" class="arrow"/>
+  
+  <!-- 构造描述到构造prompt -->
+  <path d="M 725 540 L 725 560" class="arrow"/>
+  
+  <!-- 构造prompt到调用决策 -->
+  <path d="M 725 600 L 725 620" class="arrow"/>
+  
+  <!-- 调用决策到JSON判断 -->
+  <!-- 这条箭头表示：从“调用决策”节点（即判断是否需要调用工具/函数）到“JSON判断”节点（判断大模型输出是否为JSON格式，决定是否需要进一步解析参数并调用工具）。 -->
+  <path d="M 725 660 L 725 680" class="arrow"/>
+  
+  <!-- JSON判断到解析参数 -->
+  <path d="M 675 700 L 650 700" class="arrow"/>
+  <text x="625" y="695" class="label">是</text>
+  
+  <!-- 解析参数到调用工具 -->
+  <path d="M 575 720 L 575 740" class="arrow"/>
+  
+  <!-- 调用工具到成功判断 -->
+  <path d="M 575 780 L 575 800" class="arrow"/>
+  
+  <!-- 成功判断到结果作为上下文 -->
+  <path d="M 525 820 L 500 820" class="arrow"/>
+  <text x="475" y="815" class="label">是</text>
+  
+  <!-- 成功判断到返回错误 -->
+  <path d="M 625 820 L 750 820" class="arrow"/>
+  <text x="687" y="815" class="label">否</text>
+  
+  <!-- 结果作为上下文到再次调用 -->
+  <path d="M 425 840 L 425 860" class="arrow"/>
+  
+  <!-- 返回错误到流式返回 -->
+  <path d="M 825 840 L 825 920 L 500 920" class="arrow"/>
+  
+  <!-- 再次调用到流式返回 -->
+  <path d="M 425 900 L 425 920 L 500 920" class="arrow"/>
+  
+  <!-- JSON判断到直接返回 -->
+  <path d="M 775 700 L 850 700" class="arrow"/>
+  <text x="812" y="695" class="label">否</text>
+  
+  <!-- 直接返回到流式返回 -->
+  <path d="M 925 720 L 925 920 L 500 920" class="arrow"/>
+  
+  <!-- 普通问答到构造prompt -->
+  <path d="M 275 420 L 275 440" class="arrow"/>
+  
+  <!-- 构造prompt到调用大模型 -->
+  <path d="M 275 480 L 275 500" class="arrow"/>
+  
+  <!-- 调用大模型到成功判断 -->
+  <path d="M 275 540 L 275 560" class="arrow"/>
+  
+  <!-- 成功判断到流式返回内容 -->
+  <path d="M 225 580 L 200 580" class="arrow"/>
+  <text x="212" y="575" class="label">是</text>
+  
+  <!-- 成功判断到返回API错误 -->
+  <path d="M 325 580 L 400 580" class="arrow"/>
+  <text x="362" y="575" class="label">否</text>
+  
+  <!-- 流式返回内容到流式返回结果 -->
+  <path d="M 125 600 L 125 920 L 400 920" class="arrow"/>
+  
+  <!-- 返回API错误到流式返回结果 -->
+  <path d="M 475 600 L 475 920 L 500 920" class="arrow"/>
+  
+  <!-- 流式返回结果到写入数据库 -->
+  <path d="M 500 960 L 500 980" class="arrow"/>
+  
+  <!-- 写入数据库到结束 -->
+  <path d="M 500 1020 L 500 1040" class="arrow"/>
+  
+</svg> 
